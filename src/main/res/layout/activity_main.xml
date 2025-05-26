@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <Button
+        android:id="@+id/buttonCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Post"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Button to create a new lost or found post" />
+
+    <Button
+        android:id="@+id/buttonShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Posts"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Button to view all submitted posts" />
+
+    <Button
+        android:id="@+id/btn_show_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show on Map"
+        android:contentDescription="Button to display all posts on the map" />
+
+</LinearLayout>
